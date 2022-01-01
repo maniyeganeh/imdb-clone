@@ -1,0 +1,35 @@
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 1% 0;
+}
+.form input{
+    width: 70%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: none;
+}
+.form button{
+height: 40px;
+border-radius: 0px 10px 10px 0px;
+box-shadow: none;
+border: none;
+background-color: #44bd32;
+color: #fff;
+position: absolute;
+left: 82%;
+cursor: pointer;
+}
+@media screen and (max-width:760px) and (min-width:300px) {
+        .form input{
+       
+            margin: 3% auto;
+        }
+       
+}
